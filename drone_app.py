@@ -148,7 +148,7 @@ elif mode == "Video":
                 frame,
                 conf = conf, 
                 iou = 0.5,                 # IoU = Intersection over Union. It measures how much two boxes overlap.
-                tracker="bytetrack.yaml", 
+                tracker="botsort.yaml", 
                 persist=True
             )
             
