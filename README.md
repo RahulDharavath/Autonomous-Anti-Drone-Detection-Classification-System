@@ -25,3 +25,15 @@ Manual monitoring systems are ineffective due to the **small size of drones** an
 
 # **4. DATA COLLECTION & PREPARATION:**
 * Data source:(https://app.roboflow.com/anti-drone-detection/anti-drone-detection-system/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
+* I used a custom dataset with drones, birds, aircraft, and helicopters.
+  The dataset was split into two subsets:
+
+Training set: 4,307 images with 4,307 YOLO-format annotation TXT files.
+
+Validation set: 928 images with 928 annotation TXT files.
+
+Each annotation file used YOLO’s normalized format, containing the class ID and bounding box coordinates.
+
+A data.yaml configuration file defined the dataset structure:
+<img width="800" height="336" alt="Screenshot 2026-01-24 at 11 57 17 AM" src="https://github.com/user-attachments/assets/dad0c340-9d56-41d9-b57c-c12d955ba85d" />
+
