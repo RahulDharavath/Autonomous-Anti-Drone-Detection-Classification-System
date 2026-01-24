@@ -37,12 +37,12 @@ Validation set: 928 images with 928 annotation TXT files.
 Each annotation file used YOLO’s normalized format, containing the class ID and bounding box coordinates.
 
 A data.yaml configuration file defined the dataset structure:
-`<img width="800" height="336" alt="Screenshot 2026-01-24 at 11 57 17 AM" src="https://github.com/user-attachments/assets/dad0c340-9d56-41d9-b57c-c12d955ba85d" />`
+<img width="800" height="336" alt="Screenshot 2026-01-24 at 11 57 17 AM" src="https://github.com/user-attachments/assets/dad0c340-9d56-41d9-b57c-c12d955ba85d" />
 
 # **5.TRAINING:**
 Training was conducted on Google Colab T4 GPU + with torch-2.9.0+cu126 (Tesla T4, 16GB)
 code:
-`<img width="568" height="226" alt="Screenshot 2026-01-24 at 12 28 52 PM" src="https://github.com/user-attachments/assets/9ca75b83-d85c-462f-bbbe-52d68ea482e2" />`
+<img width="568" height="226" alt="Screenshot 2026-01-24 at 12 28 52 PM" src="https://github.com/user-attachments/assets/9ca75b83-d85c-462f-bbbe-52d68ea482e2" />
 Parameter breakdown:
   * `model=yolov11m.pt`: Pre-trained YOLOv11m weights.
   * `data`: Path to dataset configuration.
