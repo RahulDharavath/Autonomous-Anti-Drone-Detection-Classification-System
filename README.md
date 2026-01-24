@@ -4,8 +4,10 @@
 **🚀 Live Demo:** 👉 [Click here to view the deployed app](https://autonomous-anti-drone-detection-classification-system.streamlit.app)
 ---
 # **Over View:**
+
 Unmanned Aerial Vehicles (UAVs), commonly known as drones, are increasingly used across multiple sectors, including border surveillance, security monitoring, and airspace safety.  
 However, the growing presence of drones also introduces serious security risks, such as unauthorized intrusions and false threat alerts caused by birds or other aerial objects.
+
 This project presents a **robust, real-time anti-drone detection and classification system** built using **YOLOv11m (20.03M parameters)**.  
 The system detects and classifies aerial objects and triggers an alert **only when a drone is detected with a confidence score greater than 70%**, helping reduce false positives and improve operational reliability.
 ---
