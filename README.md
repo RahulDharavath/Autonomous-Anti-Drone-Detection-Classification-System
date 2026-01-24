@@ -24,7 +24,7 @@ Manual monitoring systems are ineffective due to the **small size of drones** an
 ![SYSTEM ARCHITECTURE](https://github.com/user-attachments/assets/1c7ac727-8c94-453e-8dac-99cae6b6c52d)
 
 # **4. DATA COLLECTION & PREPROCESSING:**
-* Data source:(https://app.roboflow.com/anti-drone-detection/anti-drone-detection-system/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
+* Data source: https://app.roboflow.com/anti-drone-detection/anti-drone-detection-system/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true
 * I used a custom dataset with drones, birds, aircraft, and helicopters.
 
   The dataset was split into two subsets:
@@ -44,19 +44,4 @@ code:
 <img width="568" height="226" alt="Screenshot 2026-01-24 at 12 28 52 PM" src="https://github.com/user-attachments/assets/9ca75b83-d85c-462f-bbbe-52d68ea482e2" />
 
 
-from ultralytics import YOLO
-
-# Load the medium YOLO11 model
-model = YOLO("yolo11m.pt")
-
-# Start training on the Anti-Drone dataset
-model.train(
-    data="Anti-Drone-Detection-System--1/data.yaml",
-    epochs=100,
-    imgsz=640,
-    batch=16,
-    patience=15,
-    workers=8,
-    device=0  # Uses the Tesla T4 GPU
-)
 
