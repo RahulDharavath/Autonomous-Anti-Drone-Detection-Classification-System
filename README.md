@@ -21,7 +21,7 @@ Manual monitoring systems are ineffective due to the **small size of drones** an
 * This project addresses these challenges by developing an **automated, AI-based anti-drone detection system** that generates alerts **only when the detection confidence crosses a safe threshold**, thereby reducing false alarms and improving detection reliability.
 
 # **3. SYSTEM ARCHITECTURE:**
-<img width="635" height="661" alt="Screenshot 2026-01-24 at 11 38 52 AM" src="https://github.com/user-attachments/assets/fd37246e-d2fe-4de1-a646-7f6f830b2d13" />
+<img width="700" height="661" alt="Screenshot 2026-01-24 at 11 38 52 AM" src="https://github.com/user-attachments/assets/fd37246e-d2fe-4de1-a646-7f6f830b2d13" />
 
 
 # **4. DATA COLLECTION & PREPARATION:**
