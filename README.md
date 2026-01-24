@@ -21,7 +21,7 @@ Manual monitoring systems are ineffective due to the **small size of drones** an
 * This project addresses these challenges by developing an **automated, AI-based anti-drone detection system** that generates alerts **only when the detection confidence crosses a safe threshold**, thereby reducing false alarms and improving detection reliability.
 
 # **3. SYSTEM ARCHITECTURE:**
-![SYSTEM ARCHITECTURE]((https://github.com/user-attachments/assets/6f66ea65-ffd0-4e08-bca0-5ce4368d74a9))
+!SYSTEM ARCHITECTURE((https://github.com/user-attachments/assets/6f66ea65-ffd0-4e08-bca0-5ce4368d74a9))
 
 # **4. DATA COLLECTION & PREPARATION:**
 * [Data source:](https://app.roboflow.com/anti-drone-detection/anti-drone-detection-system/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
