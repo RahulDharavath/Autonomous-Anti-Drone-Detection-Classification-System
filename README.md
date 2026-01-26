@@ -57,7 +57,22 @@ Each annotation file used YOLO’s normalized format, containing the class ID an
 
 A `data.yaml` configuration file was used to define dataset paths & class labels:
 
-<img width="800" height="800" alt="Screenshot 2026-01-24 at 11 57 17 AM" src="https://github.com/user-attachments/assets/dad0c340-9d56-41d9-b57c-c12d955ba85d" />
+    import yaml
+    
+    yaml_data = {
+        'path': 'Anti-Drone-Detection-System--1',
+        'train': 'train/images',
+        'val': 'valid/images',
+        'nc': 4,                # No.of classes
+        'names': ['aircraft', 'bird', 'helicopter', 'drone']
+    }           # ID's :- aircraft -> 0, bird -> 1, helicopter -> 2, 'drone -> 3
+    
+    
+    with open('Anti-Drone-Detection-System--1/data.yaml', 'w') as file:
+        yaml.dump(yaml_data, file)
+    
+    print("saved to data.yaml")
+
 
 ---
 
@@ -67,7 +82,17 @@ Training was conducted on **Google Colab using an NVIDIA Tesla T4 GPU (16GB)** w
 
 ### code:
 
-<img width="800" height="800" alt="Screenshot 2026-01-24 at 12 28 52 PM" src="https://github.com/user-attachments/assets/9ca75b83-d85c-462f-bbbe-52d68ea482e2" />
+    #  Train the YOLO model on custom dataset
+    model.train(
+        data="Anti-Drone-Detection-System--1/data.yaml",
+        epochs=100,
+        imgsz=640,
+        batch=16,
+        patience=15,
+        workers=8,
+        device=0
+    )
+
 
 ### Parameter breakdown:
 
