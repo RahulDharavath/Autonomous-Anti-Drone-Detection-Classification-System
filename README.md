@@ -154,6 +154,14 @@ https://github.com/user-attachments/assets/d83c8373-9752-4ff7-b461-9370d7014e09
 
 ---
 
+## Drawback 
+
+
+
+https://github.com/user-attachments/assets/fa905475-b5b7-47ce-9a9d-a64879d668e4
+
+
+
 ## 8. Deployment
 
 The trained model was deployed using **Streamlit**, providing an interactive web-based interface for real-time drone detection and alert visualization.
